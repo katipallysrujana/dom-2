@@ -50,7 +50,8 @@ contentDiv.innerText = "Updated with innerText";
 //  Set attribute
 let pic = document.createElement("img")
 pic.setAttribute("src", "https://www.wallpapergeeks.com/wp-content/uploads/2014/03/Nature_107.jpg")
-pic.setAttribute("width", 400)
+pic.setAttribute("width", 200)
+pic.setAttribute("Height",200)
 document.body.appendChild(pic)
 
 // Get attribute
